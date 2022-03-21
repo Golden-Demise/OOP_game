@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CEraser.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGameStateInit.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGameStateOver.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGameStateRun.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InitalPageMenu.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEraser.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGameStateInit.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGameStateOver.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGameStateRun.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InitalPageMenu.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\OOPL_bg\InitPage_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\InitPage_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\inital_btn_setting.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\inital_btn_setting2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\inital_btn_start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\inital_btn_start2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\OOP_game\game4.10\RES\InitPage_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\MENU_CLIP_BOX.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\quit2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\quit1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player1_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\player1_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
